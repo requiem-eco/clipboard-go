@@ -1,3 +1,27 @@
 .claude/
 .vscode/
 CLAUDE.md
+
+# Binaries
+cb
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go build
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Build artifacts
+dist/
+build/
