@@ -218,22 +218,6 @@ gofmt -s -l .
 go vet ./...
 ```
 
-### Project Structure
-
-```
-cb/
-├── main.go              # Main application
-├── go.mod               # Go module definition
-├── .github/
-│   └── workflows/
-│       ├── ci.yml       # Continuous integration
-│       └── release.yml  # Release automation
-├── .gitignore
-├── LICENSE
-├── README.md
-└── CLAUDE.md           # Development instructions
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
